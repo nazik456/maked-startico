@@ -1,64 +1,52 @@
-*{
-box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-.example-1{
-  margin:60px;
+body {
+  margin: 0;
+}
+.topbar {
   display: flex;
+  height: 130px;
+  justify-content: space-between;
+  padding: 15px 100px 10px 50px;
+  box-shadow: 0 0 10px gray;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #2a2a2a;
+  margin: 0 18px;
+}
+.topbar .logo {
+  margin-top: 20px;
+}
+.defis {
+  border-right: 2px solid black;
+  width: 2px;
+  height: 18px;
+}
+.search {
+  width: 300px;
+  height: 50px;
+  box-shadow: 0 0 10px black;
+  margin-left: 35px;
+  position: relative;
+}
+.topbar .box nav ul li a img {
+  margin-right: 10px;
+}
+.topbar .box nav ul {
+  margin-bottom: 0;
+}
+.search div {
+  width: 280px;
+  height: 29px;
+  border: 1px solid rgb(216, 216, 216);
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
-  
-  .container { /* задать ширину и выровнять по середине */
-    max-width: 980px;
-    margin: 0 auto;
-  }
-  .row { /* строка */
-    display: flex;
-    flex-wrap: wrap;
-  }
-  [class^="col"] {
-    padding: 0 10px;
-  }
-  .col-1 {
-    flex: 9.3% 0 0;
-  }
-  .col-2 {
-    display: flex;
-    flex: 16.6% 0 0;
-  }
-  .col-3 {
-    flex: 80% 0 0;
-  }
-  .col-4 {
-    flex: 33.3% 0 0;
-  }
-  .col-5 {
-    flex: 41.6% 0 0;
-  }
-  .col-6 {
-    flex: 70% 0 0;
-    margin-bottom: 100px;
-    margin-left: 100px;
-  }
-  .col-7 {
-    flex: 88.3% 0 0;
-  }
-  .col-8 {
-    flex: 66.6% 0 0;
-  }
-  .col-9 {
-    flex: 75% 0 0;
-  }
-  .col-10 {
-    flex: 83% 0 0;
-  }
-  .col-11 {
-    flex: 91.6% 0 0;
-  }
-  .col-12 {
-    flex: 100% 0 0;
-  }
-  
-.row{
-  display: flex;
-  max-width: 150px;
-}
