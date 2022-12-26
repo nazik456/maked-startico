@@ -49,15 +49,35 @@ nav ul li a {
   top: 10px;
   left: 10px;
 }
-.header {
-  justify-content: space-between;
-  margin:20px;
+
+.navbar{
+  margin-top: 2px;
+  font-size: 15px;
+  color: rgb(9, 12, 15);
+  background: none;
+  direction:unset;
+  position: relative;
   
+
 }
-.row{
+.navbar div {
+  position:absolute;
+  bottom: 100px;
+}
+.podo{
+  padding-left: 100px;
   display: flex;
-  padding: 0 0 150px;
-  font-family: 'Courier New', Courier, monospace;
-  
-  
+  padding: 20px 80px;
+  justify-content: space-between;
+  text-decoration: underline;
 }
+.body img {
+  text-align: center;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.row {
+  display: flex;
+ flex-wrap: wrap;
+ max-width: ;
+  }
