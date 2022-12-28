@@ -92,6 +92,8 @@ nav ul li a {
  padding-left: 30px;
  color:white;
  margin-top: 30px;
-background-image: url(./img/Rectangle\ \(64\).png);
-}
 
+}
+.container {
+  background-image: url(./img/Rectangle\ \(64\).png);
+}
