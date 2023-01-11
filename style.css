@@ -138,5 +138,36 @@ padding-right: 100px 350px 250px;
  top: -0.11px;
  margin-left: 130px;
  margin-top: 70px;
+ font-style:initial;
+}
+.bonagua{
+  background-image: url(./img/Rectangle\ \(73\).png);
+  padding: 210px;
+  margin-top: 120px;
+  color: white;
+  font-style:inherit;
+  font-size: 35px;
+  
+}
+
+.form{
+  background-image: url(./img/Rectangle\ \(74\).png);
+  padding: 250px;
+
 
 }
+
+.form img {
+  width:320px;
+  left: 150px;
+  display: flex;
+  margin-left: 300px;
+  margin-top: 30px;
+  
+}
+
+.cool{
+  background-image: url(./img/Rectangle\ \(75\).png);
+  padding: 250px;
+}
+
