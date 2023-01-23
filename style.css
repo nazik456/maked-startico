@@ -94,6 +94,7 @@ nav ul li a {
  margin-top: 30px;
 
 }
+
 .blog {
   background-image: url(./img/Rectangle\ \(64\).png);
   padding: 250px 20px;
@@ -105,10 +106,7 @@ nav ul li a {
   min-height: 150px;
   min-width: 250px;
 } 
-.message {
-  margin-left: 1100px;
-  margin-top: -250px;
-}
+
 .city   {
 background-image: url(./img/Rectangle\ \(65\).png);
 padding: 200px 150px;
@@ -156,7 +154,7 @@ padding-right: 100px 350px 250px;
   color: white;
   font-style:inherit;
   font-size: 35px;
-  margin-right: 250px;
+
   
   
 }
@@ -190,5 +188,5 @@ padding-right: 100px 350px 250px;
 }
 .added{
   margin-left: 922px;
-  margin-top: -220px;
+  margin-top: -220px
 }
