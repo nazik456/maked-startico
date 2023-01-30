@@ -95,6 +95,7 @@ nav ul li a {
 
 }
 
+
 .blog {
   background-image: url(./img/Rectangle\ \(64\).png);
   padding: 250px 20px;
@@ -102,7 +103,7 @@ nav ul li a {
   justify-content:space-between;
   position: relative;
 
-  left: 100px;
+  
   min-height: 150px;
   min-width: 250px;
 } 
@@ -111,6 +112,7 @@ nav ul li a {
   top: 0;
   right: 0;
 }
+
 .city   {
 background-image: url(./img/Rectangle\ \(65\).png);
 padding: 200px 150px;
