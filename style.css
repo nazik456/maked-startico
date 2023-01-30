@@ -100,13 +100,17 @@ nav ul li a {
   padding: 250px 20px;
   margin: 20px  10px;
   justify-content:space-between;
-  
+  position: relative;
 
   left: 100px;
   min-height: 150px;
   min-width: 250px;
 } 
-
+.blog .img-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 .city   {
 background-image: url(./img/Rectangle\ \(65\).png);
 padding: 200px 150px;
